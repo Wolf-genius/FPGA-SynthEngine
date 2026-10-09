@@ -1,0 +1,23 @@
+# Gowin generated outputs; keep impl/*_process_config.json for reproducible settings.
+**/impl/pnr/
+**/impl/gwsynthesis/
+**/impl/temp/
+*.gprj.user
+*.fs
+*.bin
+*.log
+
+# Simulation outputs (keep testbench source and wave-table input files).
+*.vvp
+*.vcd
+*.fst
+sim_build/
+build/
+
+# Local temporary files.
+*.tmp
+*.bak
+*~
+__pycache__/
+.DS_Store
+Thumbs.db
