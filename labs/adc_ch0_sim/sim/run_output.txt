@@ -1,0 +1,11 @@
+VCD info: dumpfile sim/adc_ch0.vcd opened for output.
+PASS value=000
+PASS value=001
+PASS value=555
+PASS value=aaa
+PASS value=fff
+PASS reset-abort
+PASS value=a55
+PASS busy-ignore
+PASS: all CH0 tests completed
+tb\tb_adc_ch0.v:226: $finish called at 489740000 (1ps)
