@@ -1,0 +1,77 @@
+{
+  "origins": {
+    "rtl/input/adc_spi.v": {
+      "kind": "unchanged copy",
+      "source": "voice/adc_spi_sim/src/adc_spi.v",
+      "sha256": "feda4519c8dd9d58693edda9666d3880bae2a031008339c49564b0bb12940d61"
+    },
+    "tb/input/mcp3208_model.sv": {
+      "kind": "unchanged copy",
+      "source": "voice/adc_spi_sim/tb/mcp3208_model.sv",
+      "sha256": "a21ea7059c3087f1c7d21b3d261051717bcdb38f1e70bac1e551b77c8a1c471f"
+    },
+    "tb/input/tb_adc_spi.sv": {
+      "kind": "unchanged copy",
+      "source": "voice/adc_spi_sim/tb/tb_adc_spi.sv",
+      "sha256": "99a96659077aa03ed379c4b0192f4c30f2e491adb23e15914a3e88cb113ae457"
+    },
+    "scripts/input/check_waveform.py": {
+      "kind": "unchanged copy",
+      "source": "voice/adc_spi_sim/sim/check_waveform.py",
+      "sha256": "a26df819763f89aca0f881ae711f94bbbe22d95c72591b458fd01352148c81f2"
+    },
+    "rtl/input/adc_scan.v": {
+      "kind": "unchanged copy",
+      "source": "voice/adc_scan_sim/src/adc_scan.v",
+      "sha256": "6223cadf31e3e474931600e95a03f5a8f576d46d0b7fd54afea92c36e8fbcf81"
+    },
+    "rtl/input/adc_scan_controller.v": {
+      "kind": "unchanged copy",
+      "source": "voice/adc_scan_sim/src/adc_scan_controller.v",
+      "sha256": "d4ce6bdb08285edd8ef3b7277d8ccfcc63e1857bc7421f4e5b5edb72d38be27a"
+    },
+    "tb/input/tb_adc_scan.sv": {
+      "kind": "unchanged copy",
+      "source": "voice/adc_scan_sim/tb/tb_adc_scan.sv",
+      "sha256": "066de8cd5121ab2796748e34b83e335a08107e512d5b0fce53672e9930a11f9a"
+    },
+    "tb/input/tb_scan_faults.sv": {
+      "kind": "unchanged copy",
+      "source": "voice/adc_scan_sim/tb/tb_scan_faults.sv",
+      "sha256": "0363a6bdc6f9d1fe9d23492166082f32b9228dd96d6187e5fee9e637125bff93"
+    },
+    "scripts/input/check_scan.py": {
+      "kind": "unchanged copy",
+      "source": "voice/adc_scan_sim/sim/check_scan.py",
+      "sha256": "4ba4f5218249e0495fd03eb08a608a7dfc94c4321904a6ee2e35c45e8e082614"
+    },
+    "rtl/input/pressure_key_filter.v": {
+      "kind": "adapted: single-key ports and synchronous cancellation",
+      "source": "one_key/rtl/input/pressure_ch0_controls.v",
+      "source_sha256": "3e97f0844ad8549d55286468cb13df0a1532493f1217df03f17f74eed489f179"
+    },
+    "examples/input/control_frame_receiver.v": {
+      "kind": "unchanged copy",
+      "source": "voice/pressure_ch0_sim/examples/control_frame_receiver.v",
+      "sha256": "56f2bcbfb43c0bb93952252b8eb55ef0ed407f26b7dbe70f962449cc7182a626"
+    }
+  },
+  "preserved_source_sha256": {
+    "one_key/rtl/audio/audio_output.v": "56eb0e59b8026ff123afd0a4dfcaa1d46297e2fd0efdd510373459a2ab58061c",
+    "one_key/rtl/audio/audio_sample_buffer.v": "841e0f57d2579752189fde47bf880abef11cf75ac92d4043f3b7a41543cf52fe",
+    "one_key/rtl/audio/audio_tx.v": "a4f79f8bea15767e511e29e183db9f4b535caee717458329dd502582ba00cbfa",
+    "one_key/rtl/audio/reset_sync.v": "5070f06e4e18f43d1b821301f6170241dab63f3a43caa0a607e61164142c450e",
+    "one_key/rtl/input/adc_spi.v": "feda4519c8dd9d58693edda9666d3880bae2a031008339c49564b0bb12940d61",
+    "one_key/rtl/input/pressure_ch0_controls.v": "3e97f0844ad8549d55286468cb13df0a1532493f1217df03f17f74eed489f179",
+    "one_key/rtl/input/pressure_ch0_input.v": "51b78dba9456ec51fe9640464a439ca658a2fe8576fe544b7319254d5d738c01",
+    "one_key/rtl/synth/single_voice_core.v": "6b50bbc3064dd0c10e641914655fed0cf0dc4379270168c2d265161679e4f6b4",
+    "one_key/rtl/top/one_key_engine.v": "537c9fa022e567ff40321105dcbfa5d77a20da2f58a465e9ae072cfe50b5e281",
+    "one_key/rtl/top/one_key_top.v": "b86661187c58de5d725972ae9c1dae99ee293a355e6c03e7bfda110854f4b9c3",
+    "voice/adc_spi_sim/src/adc_spi.v": "feda4519c8dd9d58693edda9666d3880bae2a031008339c49564b0bb12940d61",
+    "voice/adc_scan_sim/src/adc_scan.v": "6223cadf31e3e474931600e95a03f5a8f576d46d0b7fd54afea92c36e8fbcf81",
+    "voice/adc_scan_sim/src/adc_scan_controller.v": "d4ce6bdb08285edd8ef3b7277d8ccfcc63e1857bc7421f4e5b5edb72d38be27a",
+    "voice/pressure_ch0_sim/src/pressure_ch0_controls.v": "ce0697967736cd2d44e7341f9e05e48c417d82e693f56a801318778755fd3bca"
+  },
+  "archive_sha256": "f7467713ae7d0db21c86b921b7470b6ad49be0857f844c08f471493f49a5fdc3",
+  "note": "Original archive paths remapped to repository directories; unchanged RTL reused."
+}
