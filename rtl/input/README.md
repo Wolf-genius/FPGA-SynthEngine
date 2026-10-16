@@ -1,5 +1,17 @@
 # B：演奏输入
 
+## 四键输入交付（2026-10-16）
+
+正式入口改用`pressure_keys_input #(.ACTIVE_KEYS(4))`，向核心输出原有gate[7:0]、key_gain[127:0]、controls_valid。默认CH0～3独立处理、CH4～7输出零；ACTIVE_KEYS可选1/4/8，八路原始ADC仍完整扫描。原成功一键模块保留，二者不能同时驱动同一SPI/控制总线。
+
+综合从仓库根目录按`rtl/input/pressure_keys.f`加入六份RTL：adc_spi、adc_scan_controller、adc_scan、pressure_key_filter、pressure_frame_controls、pressure_keys_input。同名模块只加入一份，不编入TB或旧labs副本。`examples/input/fake_four_key_controls.v`供队长先测四键保持、只松第二键、释放重按、只变第三键力度和快速重复；与真实源择一使用。接收规则参考已有control_frame_receiver。
+
+主时钟50MHz，ADC Mode0/500kHz/24拍，每1ms整组扫描。每键编译期参数独立；默认TON/TOFF/RAW_MIN/RAW_MAX/MIN_GAIN=256/128/128/3840/4096，都是占位值。实现两轮确认、滞回、整数映射和Q16.8有符号1/4平滑；松开同帧gate/gain归零，核心须冻结此前力度进入Release。扫描超时保留上一完整控制帧，取消在途处理并清确认，恢复后重新两轮；不是物理断线检测。
+
+完整raw发布到控制发布20拍/400ns，控制处理接受到发布19拍/380ns；消费者下一沿整体接收。controls_valid与sample_ce同沿时当前采样用旧帧，下个采样用新帧。详细端口与例化见[交接说明](../../docs/input/four_keys/交接给队长和A.md)。
+
+仿真、综合脚本已按仓库目录重排并重新运行，入口见[tb/input说明](../../tb/input/README.md)。原始ZIP与完整历史波形/构建证据另归档在`deliveries/20261016/`。默认校准值未实测；本次只完成B输入代码与输入模块综合，不代表ADSR核心、PnR/物理时序、四键实物或整机≤10ms通过。
+
 ## 本次交付：CH0压力控制（2026-10-14）
 
 正式RTL加入最终工程：

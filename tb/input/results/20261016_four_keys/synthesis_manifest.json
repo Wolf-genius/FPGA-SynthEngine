@@ -1,0 +1,60 @@
+{
+  "status": "PASS_SYNTHESIS_ONLY",
+  "input_sha256": {
+    "rtl/input/adc_spi.v": "feda4519c8dd9d58693edda9666d3880bae2a031008339c49564b0bb12940d61",
+    "rtl/input/adc_scan_controller.v": "d4ce6bdb08285edd8ef3b7277d8ccfcc63e1857bc7421f4e5b5edb72d38be27a",
+    "rtl/input/adc_scan.v": "6223cadf31e3e474931600e95a03f5a8f576d46d0b7fd54afea92c36e8fbcf81",
+    "rtl/input/pressure_key_filter.v": "61cc946290a535be49d0a24ecc96e356063ced5baab9e124fdac669300879800",
+    "rtl/input/pressure_frame_controls.v": "8f3bd7cfa63c43ed3aeb6b471e4b36a77a268d02d1a0a81b62519c351aed86bf",
+    "rtl/input/pressure_keys_input.v": "b8aca2426278f93c9ff906c23f89f13d36c4371a2d679bd5efe9f23bbec7235b"
+  },
+  "started_at": "2026-10-16T08:12:53.049870+00:00",
+  "scope": "Synthesis only for B input; no CST, PnR, physical timing, bitstream or board proof",
+  "jobs": [
+    {
+      "active_keys": 4,
+      "argv": [
+        "C:/Gowin/Gowin_V1.9.12.03_x64/IDE/bin/gw_sh.exe",
+        "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys_synthesis\\verified_20261016_161253_047869\\keys4\\run.tcl"
+      ],
+      "cwd": "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys_synthesis\\verified_20261016_161253_047869\\keys4",
+      "exit_code": 0,
+      "errors": [],
+      "warnings": [],
+      "project_sha256": "e4d4d366f4c0b290f36c481a1610b68bbcba45529fe1882ef664951307ecc6e3",
+      "wrapper_sha256": "32e03becc225f45d39350b78c7c2323b523766500c688566d67fd4be2f5f1a5b",
+      "tcl_sha256": "bca8c08af4e97b171289db3ea7c6645fb4dd20838b1400414e55927de7202099",
+      "artifacts": {
+        "impl/gwsynthesis/pressure_input.log": "82cdd889bdc828e94945d54c0f103b94ff0f994be1a7dfff3674e52b00ab4dfe",
+        "impl/gwsynthesis/pressure_input.prj": "9447c1522399b9d37a510c343d681933b295c19d5231227ce7aa6da3b5b2d14d",
+        "impl/gwsynthesis/pressure_input.vg": "ea360aefda92e6f3cbe0cf3930bd887f7862e25951ae60c1dfde852607ede31b",
+        "impl/gwsynthesis/pressure_input_syn.rpt.html": "1a70d1c8aa880f177cea605d76b54b14b207da52e615a8597f7dc7cae26d9ac1",
+        "impl/gwsynthesis/pressure_input_syn_resource.html": "f9c26b35f0d8a34f91f505ec81b1b48194cc39b59a5d9ec0c44cb41ef9bb1b4e",
+        "impl/gwsynthesis/pressure_input_syn_rsc.xml": "a787cf5d89bfcaedce1ba2e008a8ed54a6c9d828ed69d3a6c376b86dabcb24b3"
+      }
+    },
+    {
+      "active_keys": 8,
+      "argv": [
+        "C:/Gowin/Gowin_V1.9.12.03_x64/IDE/bin/gw_sh.exe",
+        "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys_synthesis\\verified_20261016_161253_047869\\keys8\\run.tcl"
+      ],
+      "cwd": "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys_synthesis\\verified_20261016_161253_047869\\keys8",
+      "exit_code": 0,
+      "errors": [],
+      "warnings": [],
+      "project_sha256": "a8ad107356ee8fa32e3794f470efbad336f53c959dd978bf7da04bc563bb7372",
+      "wrapper_sha256": "6d060a544802614a0d84cfd5761dab603800a31a864cbcef51152d39727a14ad",
+      "tcl_sha256": "e35edc1de63421818d612f1aafbfda077b8ff15eb9b03ad924c11f64c7687d8d",
+      "artifacts": {
+        "impl/gwsynthesis/pressure_input.log": "292ea07d43f11e93fa7a4e732f407616fa2faff189d5df4d3a9ea1ed9f22e325",
+        "impl/gwsynthesis/pressure_input.prj": "9c22184305574b73ce9a2b1f0322fa302a384b67c9b94943473e7db2a83ddb52",
+        "impl/gwsynthesis/pressure_input.vg": "940c45a368f2cf0e0a3a912eef91cbb80a6f17d496a8c78058cfb9c8923643fe",
+        "impl/gwsynthesis/pressure_input_syn.rpt.html": "c4cc6920f1a54ade60a5b5058f495f85591f99d2d3fd9e22158a540f7731b109",
+        "impl/gwsynthesis/pressure_input_syn_resource.html": "d38eeadef8708cdc5a927c984f81106b15257b0931b6c016ca23b04a394af876",
+        "impl/gwsynthesis/pressure_input_syn_rsc.xml": "2f131ba149202d596be1522b16620aa98c904133b8617118ccf42e9bdb4ed9da"
+      }
+    }
+  ],
+  "completed_at": "2026-10-16T08:13:07.578607+00:00"
+}

@@ -1,0 +1,466 @@
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\eight_custom\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\eight_custom
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\eight_custom\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_key_filter.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_frame_controls.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\examples\\input\\control_frame_receiver.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\tb_frames.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\eight_custom\\wrapper.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\eight_custom\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\eight_custom
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\eight_custom\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\eight_custom\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\eight_custom\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\eight_custom
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\eight_custom\\checked.vvp"]
+exit_code=0
+STDOUT:
+VCD info: dumpfile frames.vcd opened for output.
+PASS ALL frames active=8 cycles=16434 published=13215 old_frame_collisions=4418
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\eight_custom\preprocessed.sv:346: $finish called at 328691000 (1ps)
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_all\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_all
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fake_all\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\examples\\input\\fake_four_key_controls.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\tb_fake_controls.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fake_all\\wrapper.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_all\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_all
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fake_all\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fake_all\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_all\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_all
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fake_all\\checked.vvp"]
+exit_code=0
+STDOUT:
+VCD info: dumpfile fake.vcd opened for output.
+PASS ALL fake_controls frames=804 frame_cycles=40 reset_restart=1
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_all\preprocessed.sv:93: $finish called at 643380000 (1ps)
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_default\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_default
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fake_default\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\examples\\input\\fake_four_key_controls.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\tb_fake_controls.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fake_default\\wrapper.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_default\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_default
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fake_default\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fake_default\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_default\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_default
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fake_default\\checked.vvp"]
+exit_code=0
+STDOUT:
+VCD info: dumpfile fake.vcd opened for output.
+PASS ALL fake_controls frames=14 frame_cycles=50000 reset_restart=1
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fake_default\preprocessed.sv:93: $finish called at 14000180000 (1ps)
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fault_handoff\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fault_handoff
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fault_handoff\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\adc_scan_controller.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_key_filter.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_frame_controls.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\tb_fault_handoff.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fault_handoff\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fault_handoff
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fault_handoff\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fault_handoff\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fault_handoff\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fault_handoff
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\fault_handoff\\checked.vvp"]
+exit_code=0
+STDOUT:
+VCD info: dumpfile handoff.vcd opened for output.
+PASS ALL fault_handoff frames=6 timeouts=2 missing_CH3=1 deadline_CH7=1 confirmations_cleared=2
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\fault_handoff\preprocessed.sv:450: $finish called at 10001611000 (1ps)
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\four_keys\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\four_keys
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\four_keys\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_key_filter.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_frame_controls.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\examples\\input\\control_frame_receiver.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\tb_frames.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\four_keys\\wrapper.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\four_keys\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\four_keys
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\four_keys\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\four_keys\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\four_keys\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\four_keys
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\four_keys\\checked.vvp"]
+exit_code=0
+STDOUT:
+VCD info: dumpfile frames.vcd opened for output.
+PASS ALL frames active=4 cycles=16434 published=13239 old_frame_collisions=4425
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\four_keys\preprocessed.sv:346: $finish called at 328691000 (1ps)
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_active\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_active
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\invalid_active\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_key_filter.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_frame_controls.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\invalid_active\\wrapper.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_active\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_active
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\invalid_active\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\invalid_active\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_active\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_active
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\invalid_active\\checked.vvp"]
+exit_code=1
+STDOUT:
+FATAL: D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_active\preprocessed.sv:250: ACTIVE_KEYS must be 1, 4 or 8
+       Time: 0  Scope: test.dut
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_calibration\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_calibration
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\invalid_calibration\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_key_filter.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_frame_controls.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\invalid_calibration\\wrapper.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_calibration\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_calibration
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\invalid_calibration\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\invalid_calibration\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_calibration\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_calibration
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\invalid_calibration\\checked.vvp"]
+exit_code=1
+STDOUT:
+FATAL: D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_calibration\preprocessed.sv:172: Invalid pressure calibration parameters
+       Time: 0  Scope: test.dut.key_lane[0].enabled.filter
+FATAL: D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_calibration\preprocessed.sv:172: Invalid pressure calibration parameters
+       Time: 0  Scope: test.dut.key_lane[1].enabled.filter
+FATAL: D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_calibration\preprocessed.sv:172: Invalid pressure calibration parameters
+       Time: 0  Scope: test.dut.key_lane[2].enabled.filter
+FATAL: D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\invalid_calibration\preprocessed.sv:172: Invalid pressure calibration parameters
+       Time: 0  Scope: test.dut.key_lane[3].enabled.filter
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\iverilog_version.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175
+argv=["D:/iverilog/bin/iverilog.exe", "-V"]
+exit_code=0
+STDOUT:
+Icarus Verilog version 12.0 (devel) (s20150603-1539-g2693dd32b)
+
+Copyright (c) 2000-2021 Stephen Williams (steve@icarus.com)
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+Icarus Verilog Preprocessor version 12.0 (devel) (s20150603-1539-g2693dd32b)
+
+Copyright (c) 1999-2021 Stephen Williams (steve@icarus.com)
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+Icarus Verilog Parser/Elaborator version 12.0 (devel) (s20150603-1539-g2693dd32b)
+
+Copyright (c) 1998-2021 Stephen Williams (steve@icarus.com)
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+ FLAGS DLL vvp.tgt
+vvp.tgt: Icarus Verilog VVP Code Generator 12.0 (devel) (s20150603-1539-g2693dd32b)
+
+Copyright (c) 2001-2021 Stephen Williams (steve@icarus.com)
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\one_key\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\one_key
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\one_key\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_key_filter.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_frame_controls.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\examples\\input\\control_frame_receiver.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\tb_frames.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\one_key\\wrapper.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\one_key\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\one_key
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\one_key\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\one_key\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\one_key\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\one_key
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\one_key\\checked.vvp"]
+exit_code=0
+STDOUT:
+VCD info: dumpfile frames.vcd opened for output.
+PASS ALL frames active=1 cycles=16434 published=13203 old_frame_collisions=4415
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\one_key\preprocessed.sv:346: $finish called at 328691000 (1ps)
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\outer_probe.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-s", "probe", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\outer_probe.vvp", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\outer_probe.v"]
+exit_code=3221225477
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scan_controls\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scan_controls
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scan_controls\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\adc_spi.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\adc_scan_controller.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\adc_scan.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_key_filter.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_frame_controls.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\pressure_keys_input.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\mcp3208_model.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\tb_scan_controls.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scan_controls\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scan_controls
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scan_controls\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scan_controls\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scan_controls\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scan_controls
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scan_controls\\checked.vvp"]
+exit_code=0
+STDOUT:
+VCD info: dumpfile integrated.vcd opened for output.
+PASS ALL scan_controls frames=14 controls=14 transactions=116 reset_aborts=1 atomic_CH4=15
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scan_controls\preprocessed.sv:814: $finish called at 15626360000 (1ps)
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\faults\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\faults
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scanner\\faults\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\adc_scan_controller.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\tb_scan_faults.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\faults\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\faults
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scanner\\faults\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scanner\\faults\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\faults\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\faults
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scanner\\faults\\checked.vvp"]
+exit_code=0
+STDOUT:
+VCD info: dumpfile faults.vcd opened for output.
+PASS baseline_raw=0db0ca0b90a8097086075064
+PASS missing_CH3 timeout_count=1 late_valid_ignored=1 last_frame_held=1
+PASS recovery_after_missing_result frame=3fb3ea3d93c83b73a6395384
+PASS never_ready timeout_count=2 issued_requests=0 last_frame_held=1
+PASS CH7_at_deadline timeout_count=3 frame_valid=0 last_frame_held=1
+PASS ALL faults rounds=7 published=4 timeouts=3 recovery=3
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\faults\preprocessed.sv:255: $finish called at 10001260000 (1ps)
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\integrated\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\integrated
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scanner\\integrated\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\adc_spi.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\adc_scan_controller.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\adc_scan.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\mcp3208_model.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\tb_adc_scan.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\integrated\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\integrated
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scanner\\integrated\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scanner\\integrated\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\integrated\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\integrated
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\scanner\\integrated\\checked.vvp"]
+exit_code=0
+STDOUT:
+VCD info: dumpfile scan.vcd opened for output.
+SCAN round=1 epoch=0 start_ns=1000090 clock_count=50000 expected=001800aaa555fffabc001000
+PASS atomic_CH4 round=1 old_frame=000000000000000000000000
+PASS frame=1 round=1 latency_ns=408480 raw=001800aaa555fffabc001000
+SCAN round=2 epoch=0 start_ns=2000090 clock_count=100000 expected=3202bc2581f419012c0c8064
+PASS atomic_CH4 round=2 old_frame=001800aaa555fffabc001000
+PASS frame=2 round=2 latency_ns=408480 raw=3202bc2581f419012c0c8064
+SCAN round=3 epoch=0 start_ns=3000090 clock_count=150000 expected=3202bc2581f419012c0c8064
+PASS atomic_CH4 round=3 old_frame=3202bc2581f419012c0c8064
+PASS frame=3 round=3 latency_ns=408480 raw=3202bc2581f419012c0c8064
+SCAN round=4 epoch=0 start_ns=4000090 clock_count=200000 expected=7086a46405dc5785144b044c
+PASS atomic_CH4 round=4 old_frame=3202bc2581f419012c0c8064
+PASS frame=4 round=4 latency_ns=408480 raw=7086a46405dc5785144b044c
+SCAN round=5 epoch=0 start_ns=5000090 clock_count=250000 expected=7086a46405dc5785144b044c
+PASS atomic_CH4 round=5 old_frame=7086a46405dc5785144b044c
+PASS reset_discard_partial frame_count=4
+SCAN round=6 epoch=1 start_ns=6217390 clock_count=50000 expected=af0a8ca289c49608fc898834
+PASS atomic_CH4 round=6 old_frame=000000000000000000000000
+PASS frame=5 round=6 latency_ns=408480 raw=af0a8ca289c49608fc898834
+SCAN round=7 epoch=1 start_ns=7217390 clock_count=100000 expected=af0a8ca289c49608fc898834
+PASS atomic_CH4 round=7 old_frame=af0a8ca289c49608fc898834
+PASS frame=6 round=7 latency_ns=408480 raw=af0a8ca289c49608fc898834
+PASS ALL integrated frames=6 rounds=7 transactions=53 aborted=1 atomic_CH4=7 timeout_count=0
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\scanner\integrated\preprocessed.sv:549: $finish called at 7625940000 (1ps)
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\spi\01_preprocess.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\spi
+argv=["D:/iverilog/bin/iverilog.exe", "-g2012", "-E", "-o", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\spi\\preprocessed.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\rtl\\input\\adc_spi.v", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\mcp3208_model.sv", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\tb\\input\\tb_adc_spi.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\spi\02_compile.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\spi
+argv=["D:\\iverilog\\lib\\ivl\\ivl.exe", "-C", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\spi\\compile.conf", "-C", "D:\\iverilog\\lib\\ivl\\vvp.conf", "--", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\spi\\preprocessed.sv"]
+exit_code=0
+STDOUT:
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\spi\03_simulation.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\spi
+argv=["D:/iverilog/bin/vvp.exe", "D:\\gowin1\\tmp\\FPGA-four-key-upload\\sim_build\\pressure_keys\\verified_20261016_161227_646175\\spi\\checked.vvp"]
+exit_code=0
+STDOUT:
+VCD info: dumpfile adc_spi.vcd opened for output.
+PASS CASE=reset_idle outputs=cs1_sclk0_mosi0_busy0_valid0_data000
+PASS CASE=value_000 ch=0 command=060000 data=000 tDO_ns=200 valid_count=1
+PASS CASE=value_001 ch=0 command=060000 data=001 tDO_ns=200 valid_count=2
+PASS CASE=value_ABC ch=0 command=060000 data=abc tDO_ns=200 valid_count=3
+PASS CASE=value_FFF ch=0 command=060000 data=fff tDO_ns=200 valid_count=4
+PASS CASE=value_555 ch=0 command=060000 data=555 tDO_ns=200 valid_count=5
+PASS CASE=value_AAA ch=0 command=060000 data=aaa tDO_ns=200 valid_count=6
+PASS CASE=channel_0 ch=0 command=060000 data=123 tDO_ns=200 valid_count=7
+PASS CASE=channel_1 ch=1 command=064000 data=234 tDO_ns=200 valid_count=8
+PASS CASE=channel_2 ch=2 command=068000 data=345 tDO_ns=200 valid_count=9
+PASS CASE=channel_3 ch=3 command=06c000 data=456 tDO_ns=200 valid_count=10
+PASS CASE=channel_4 ch=4 command=070000 data=567 tDO_ns=200 valid_count=11
+PASS CASE=channel_5 ch=5 command=074000 data=678 tDO_ns=200 valid_count=12
+PASS CASE=channel_6 ch=6 command=078000 data=789 tDO_ns=200 valid_count=13
+PASS CASE=channel_7 ch=7 command=07c000 data=89a tDO_ns=200 valid_count=14
+PASS CASE=channel_latch ch=3 command=06c000 data=456 tDO_ns=200 valid_count=15
+PASS CASE=busy_shift_ignore ch=1 command=064000 data=234 tDO_ns=200 valid_count=16
+PASS CASE=busy_shift_no_queue extra_valid=0
+PASS CASE=busy_gap_ignore ch=2 command=068000 data=345 tDO_ns=200 valid_count=17
+PASS CASE=busy_gap_no_queue extra_valid=0
+PASS CASE=back_to_back frames=4 valid=4 project_gap_min_ns=2000
+PASS CASE=reset_phase_0 canceled_valid=0 reset_data=000
+PASS CASE=recovery_0 ch=5 command=074000 data=678 tDO_ns=200 valid_count=22
+PASS CASE=reset_phase_1 canceled_valid=0 reset_data=000
+PASS CASE=recovery_1 ch=5 command=074000 data=678 tDO_ns=200 valid_count=23
+PASS CASE=reset_phase_2 canceled_valid=0 reset_data=000
+PASS CASE=recovery_2 ch=5 command=074000 data=678 tDO_ns=200 valid_count=24
+PASS CASE=reset_phase_3 canceled_valid=0 reset_data=000
+PASS CASE=recovery_3 ch=5 command=074000 data=678 tDO_ns=200 valid_count=25
+PASS CASE=reset_phase_4 canceled_valid=0 reset_data=000
+PASS CASE=recovery_4 ch=5 command=074000 data=678 tDO_ns=200 valid_count=26
+PASS CASE=fast_reset_restart ch=6 command=078000 data=789 tDO_ns=200 valid_count=27
+PASS CASE=delay_0 ch=7 command=07c000 data=89a tDO_ns=0 valid_count=28
+PASS CASE=delay_199 ch=7 command=07c000 data=89a tDO_ns=199 valid_count=29
+PASS CASE=delay_200 ch=7 command=07c000 data=89a tDO_ns=200 valid_count=30
+PASS CASE=delay_800_stress ch=7 command=07c000 data=89a tDO_ns=800 valid_count=31
+PASS ALL normal_published=31 reset_aborted_spi=5 reset_gap_canceled=1 end_ns=2231020
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\spi\preprocessed.sv:620: $finish called at 2231020000 (1ps)
+
+STDERR:
+D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175\vvp_version.log
+cwd=D:\gowin1\tmp\FPGA-four-key-upload\sim_build\pressure_keys\verified_20261016_161227_646175
+argv=["D:/iverilog/bin/vvp.exe", "-V"]
+exit_code=0
+STDOUT:
+
+STDERR:
+Icarus Verilog runtime version 12.0 (devel) (s20150603-1539-g2693dd32b)
+
+Copyright (c) 2001-2021 Stephen Williams (steve@icarus.com)
+
+  This program is free software; you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation; either version 2 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License along
+  with this program; if not, write to the Free Software Foundation, Inc.,
+  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
+
