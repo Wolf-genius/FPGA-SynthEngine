@@ -1,0 +1,19 @@
+{
+  "status": "PASS RTL simulations and source preservation",
+  "production_RTL_changed": [
+    "rtl/teaching/teach_ctrl.v"
+  ],
+  "protected_files_unchanged": 83,
+  "test_groups": 8,
+  "full_top": {
+    "status": "PASS",
+    "seconds": 349.99,
+    "output": "PASS full top UART->score RAM->real MCP3208 ADC pressure->press-to-advance teaching LEDs, held-repeat protection, piano/guitar/octave, PCM->external I2S words and LCD: frames=43 checks=2192560 slots=2444 LCDedges=877084"
+  },
+  "scope": "immediate correct press, repeat/chord freshness, rest timing, stale input, UART/CRC/256-entry RAM, real ADC model, external I2S decoder and LCD",
+  "Gowin_synthesis": "NOT_RUN",
+  "PnR": "NOT_RUN",
+  "hardware_verified": false,
+  "new_FS_included": false,
+  "source_archive_sha256": "9f515d2717b1b2d8b97ab7d4b44004133f557e93375452774e9f30a671295fa7"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "NOT_BUILT",
+  "Gowin_synthesis": "NOT_RUN",
+  "PnR": "NOT_RUN",
+  "hardware_verified": false,
+  "bitstream_included": false,
+  "note": "This revision changes the teaching controller. Run Gowin Synthesize and Place & Route for this source before programming.",
+  "prior_build_record": "before_press_advance/delivery_report.json"
+}

@@ -1,0 +1,13 @@
+
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/input/key_press_event.v:3: warning: timescale for key_press_event inherited from another file.
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/input/pressure_eight_keys_input.v:1: ...: The inherited timescale is here.
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/input/function_keys_input.v:2: warning: timescale for function_keys_input inherited from another file.
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/input/pressure_eight_keys_input.v:1: ...: The inherited timescale is here.
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/audio/audio_tx.v:1: warning: timescale for audio_tx inherited from another file.
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/synth/dual_timbre_core.v:1: ...: The inherited timescale is here.
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/audio/audio_sample_buffer.v:1: warning: timescale for audio_sample_buffer inherited from another file.
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/synth/dual_timbre_core.v:1: ...: The inherited timescale is here.
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/audio/audio_output.v:3: warning: timescale for audio_output inherited from another file.
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/synth/dual_timbre_core.v:1: ...: The inherited timescale is here.
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/audio/reset_sync.v:1: warning: timescale for reset_sync inherited from another file.
+/workspace/scratch/ba2fb79f9072/_press_advance_20261025/eight_key_press_advance_20261025/rtl/synth/dual_timbre_core.v:1: ...: The inherited timescale is here.

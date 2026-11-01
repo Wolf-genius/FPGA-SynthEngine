@@ -1,0 +1,28 @@
+# Complete logical pin plan for P&R review, 2026-10-15.
+# Based on the 31005 board photo, B's PMOD0 wiring and the reference 60K CST.
+# Actual bank supplies, reset button and wiring must be checked before download.
+IO_LOC "clk" V22;
+IO_PORT "clk" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+
+IO_LOC "rst_n" AA13;
+IO_PORT "rst_n" IO_TYPE=LVCMOS15 PULL_MODE=UP BANK_VCCIO=1.5;
+
+# PMOD0 mapping confirmed by B. Verify actual bank voltage before download.
+IO_LOC "adc_cs_n" R18;
+IO_PORT "adc_cs_n" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "adc_sclk" T18;
+IO_PORT "adc_sclk" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "adc_mosi" P16;
+IO_PORT "adc_mosi" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "adc_miso" R17;
+IO_PORT "adc_miso" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+
+# PMOD1 is reserved for A. Three adjacent GPIOs in the same silkscreen row:
+# 3V3, GND, AA19, AA20, AB21, Y21. Use GPIO labels, not mirrored photo positions.
+# Do not connect a DVP camera or another device to these shared signals.
+IO_LOC "bclk" AA19;
+IO_PORT "bclk" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "ws" AA20;
+IO_PORT "ws" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;
+IO_LOC "din" AB21;
+IO_PORT "din" IO_TYPE=LVCMOS33 PULL_MODE=NONE BANK_VCCIO=3.3;

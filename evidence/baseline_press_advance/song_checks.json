@@ -1,0 +1,50 @@
+{
+  "status": "PASS",
+  "songs": {
+    "00_custom_C5_repeat_chord_rest_teach.txt": {
+      "events": 5,
+      "crc": "PASS",
+      "ends_with_TEACH": true
+    },
+    "01_eight_keys_upload_and_teach.txt": {
+      "events": 8,
+      "crc": "PASS",
+      "ends_with_TEACH": true
+    },
+    "01_eight_keys_upload_only.txt": {
+      "events": 8,
+      "crc": "PASS",
+      "ends_with_TEACH": false
+    },
+    "02_twinkle_upload_and_teach.txt": {
+      "events": 42,
+      "crc": "PASS",
+      "ends_with_TEACH": true
+    },
+    "02_twinkle_upload_only.txt": {
+      "events": 42,
+      "crc": "PASS",
+      "ends_with_TEACH": false
+    },
+    "03_chords_upload_and_teach.txt": {
+      "events": 6,
+      "crc": "PASS",
+      "ends_with_TEACH": true
+    },
+    "03_chords_upload_only.txt": {
+      "events": 6,
+      "crc": "PASS",
+      "ends_with_TEACH": false
+    },
+    "04_repeat_C4_upload_and_teach.txt": {
+      "events": 8,
+      "crc": "PASS",
+      "ends_with_TEACH": true
+    },
+    "04_repeat_C4_upload_only.txt": {
+      "events": 8,
+      "crc": "PASS",
+      "ends_with_TEACH": false
+    }
+  }
+}

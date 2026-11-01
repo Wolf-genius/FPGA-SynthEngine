@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE gowin-fpga-project>
+<Project>
+    <Template>FPGA</Template>
+    <Version>5</Version>
+    <Device name="GW5AT-60B" pn="GW5AT-LV60PG484AC1/I0">gw5at60b-002</Device>
+    <FileList>
+        <File path="rtl/input/adc_spi.v" type="file.verilog" enable="1" />
+        <File path="rtl/input/adc_scan_controller.v" type="file.verilog" enable="1" />
+        <File path="rtl/input/adc_scan.v" type="file.verilog" enable="1" />
+        <File path="rtl/input/pressure_key_filter.v" type="file.verilog" enable="1" />
+        <File path="rtl/input/pressure_frame_controls.v" type="file.verilog" enable="1" />
+        <File path="rtl/input/pressure_keys_input.v" type="file.verilog" enable="1" />
+        <File path="rtl/input/pressure_eight_keys_input.v" type="file.verilog" enable="1" />
+        <File path="rtl/input/key_press_event.v" type="file.verilog" enable="1" />
+        <File path="rtl/input/function_keys_input.v" type="file.verilog" enable="1" />
+        <File path="rtl/synth/selectable_adsr_env.v" type="file.verilog" enable="1" />
+        <File path="rtl/synth/instrument_settings.v" type="file.verilog" enable="1" />
+        <File path="rtl/synth/guitar_pitch_lut.v" type="file.verilog" enable="1" />
+        <File path="rtl/synth/dual_timbre_voice.v" type="file.verilog" enable="1" />
+        <File path="rtl/synth/mixer8.v" type="file.verilog" enable="1" />
+        <File path="rtl/synth/dual_timbre_core.v" type="file.verilog" enable="1" />
+        <File path="rtl/audio/audio_tx.v" type="file.verilog" enable="1" />
+        <File path="rtl/audio/audio_sample_buffer.v" type="file.verilog" enable="1" />
+        <File path="rtl/audio/audio_vibrato.v" type="file.verilog" enable="1" />
+        <File path="rtl/audio/audio_output.v" type="file.verilog" enable="1" />
+        <File path="rtl/audio/reset_sync.v" type="file.verilog" enable="1" />
+        <File path="rtl/synth/note_steps.v" type="file.verilog" enable="1" />
+        <File path="rtl/display/instrument_display.v" type="file.verilog" enable="1" />
+        <File path="rtl/display/spectrum_decimator.v" type="file.verilog" enable="1" />
+        <File path="rtl/display/audio_spectrum.v" type="file.verilog" enable="1" />
+        <File path="rtl/display/piano_spectrum_renderer.v" type="file.verilog" enable="1" />
+        <File path="rtl/display/piano_spectrum_display.v" type="file.verilog" enable="1" />
+        <File path="rtl/display/spectrum_panel_driver.v" type="file.verilog" enable="1" />
+        <File path="rtl/display/spi_byte_tx.v" type="file.verilog" enable="1" />
+        <File path="rtl/display/lcd_panel_driver.v" type="file.verilog" enable="1" />
+        <File path="rtl/display/performance_monitor.v" type="file.verilog" enable="1" />
+        <File path="rtl/display/instrument_renderer.v" type="file.verilog" enable="1" />
+        <File path="rtl/bluetooth/score_command_parser.v" type="file.verilog" enable="1" />
+        <File path="rtl/bluetooth/score_reply_uart.v" type="file.verilog" enable="1" />
+        <File path="rtl/bluetooth/uart_rx.v" type="file.verilog" enable="1" />
+        <File path="rtl/bluetooth/uart_tx.v" type="file.verilog" enable="1" />
+        <File path="rtl/teaching/led_driver.v" type="file.verilog" enable="1" />
+        <File path="rtl/teaching/teach_ctrl.v" type="file.verilog" enable="1" />
+        <File path="rtl/top/eight_key_instrument_display_top.v" type="file.verilog" enable="1" />
+        <File path="constraints/eight_key_instrument_display.cst" type="file.cst" enable="1" />
+        <File path="constraints/eight_key_full.sdc" type="file.sdc" enable="1" />
+        <File path="rtl/bluetooth/download_score_store.v" type="file.verilog" enable="1" />
+        <File path="rtl/control/bluetooth_teach_control.v" type="file.verilog" enable="1" />
+    </FileList>
+</Project>

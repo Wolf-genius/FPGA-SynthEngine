@@ -1,0 +1,53 @@
+{
+  "sample_rate": 48828.125,
+  "notes": [
+    {
+      "channel": 0,
+      "note": "C4",
+      "frequency": 261.6255653005986,
+      "phase_step": 23012828
+    },
+    {
+      "channel": 1,
+      "note": "D4",
+      "frequency": 293.6647679174076,
+      "phase_step": 25831026
+    },
+    {
+      "channel": 2,
+      "note": "E4",
+      "frequency": 329.6275569128699,
+      "phase_step": 28994347
+    },
+    {
+      "channel": 3,
+      "note": "F4",
+      "frequency": 349.2282314330039,
+      "phase_step": 30718440
+    },
+    {
+      "channel": 4,
+      "note": "G4",
+      "frequency": 391.99543598174927,
+      "phase_step": 34480283
+    },
+    {
+      "channel": 5,
+      "note": "A4",
+      "frequency": 440.0,
+      "phase_step": 38702809
+    },
+    {
+      "channel": 6,
+      "note": "B4",
+      "frequency": 493.8833012561241,
+      "phase_step": 43442435
+    },
+    {
+      "channel": 7,
+      "note": "C5",
+      "frequency": 523.2511306011972,
+      "phase_step": 46025656
+    }
+  ]
+}

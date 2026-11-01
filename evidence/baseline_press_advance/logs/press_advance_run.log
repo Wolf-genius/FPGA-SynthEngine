@@ -1,0 +1,2 @@
+PASS press advance: first correct frame; H=500/1000/60000 ignored; no zero between notes; repeats/chords/extra-key correction; 255 masks; exact rests; stale/recovery/deadline; tagged RAM; STOP; invalid metadata; passes=265
+

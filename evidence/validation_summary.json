@@ -1,0 +1,35 @@
+{
+  "status": "PASS RTL simulations and source preservation",
+  "test_groups": 12,
+  "formal_Verilog_sources": 40,
+  "gpio_bits": 26,
+  "controls": {
+    "VIBON": "OK VIBON",
+    "VIBOFF": "OK VIBOFF",
+    "VIBSTAT": "VIBRATO ON or VIBRATO OFF"
+  },
+  "default": "OFF",
+  "vibrato_audio_metrics": {
+    "status": "PASS",
+    "waveform_samples_bit_exact": 163840,
+    "fully_bypassed_samples_bit_exact": 33025,
+    "analysis_sample_rate_hz": 48828.125,
+    "measured_vibrato_rate_hz": 5.0,
+    "carrier_center_hz": 1000.0,
+    "measured_pitch_swing_percent": 1.02932,
+    "rms_output_input_ratio": 0.998691,
+    "cycle_peak_spread_percent": 0.33333,
+    "note": "Frequency estimated from output zero crossings; unit simulation accelerates sample spacing. No physical audio measurement."
+  },
+  "full_top": {
+    "status": "PASS",
+    "seconds": 489.24,
+    "output": "PASS integrated pitch FX: dry_exact=938 wet_samples=1211 wet_changed=1099 piano=1 guitar=1\nPASS full top UART->score RAM->real MCP3208 ADC pressure->press-to-advance teaching LEDs, held-repeat protection, piano/guitar/octave, PCM->external I2S words and LCD: frames=45 checks=2292560 slots=2598 LCDedges=917084"
+  },
+  "protected_baseline_files_unchanged": 75,
+  "Gowin_synthesis": "NOT_RUN",
+  "PnR": "NOT_RUN",
+  "new_FS_included": false,
+  "hardware_verified": false,
+  "baseline_hardware_status": "Prior press-to-advance version PASS reported by user; this modified version is not board-verified."
+}

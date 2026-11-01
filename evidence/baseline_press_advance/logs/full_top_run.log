@@ -1,0 +1,2 @@
+PASS full top UART->score RAM->real MCP3208 ADC pressure->press-to-advance teaching LEDs, held-repeat protection, piano/guitar/octave, PCM->external I2S words and LCD: frames=43 checks=2192560 slots=2444 LCDedges=877084
+
